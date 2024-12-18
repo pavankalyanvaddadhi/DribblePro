@@ -32,13 +32,17 @@ const Dashboard = () => {
                         </div>
                     </div>
                     <div className="row">
+                        <div className="col-12">
+                           <SideTable/>
+                        </div>
                         <div className="col-6">
+                            
+                        <Graph />
+                        </div>
+                        <div className="col-6">
+                            
                             <Graph />
-                        </div>
-                        <div className="col-6">
-                            <SideTable/>
-
-                        </div>
+                            </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
